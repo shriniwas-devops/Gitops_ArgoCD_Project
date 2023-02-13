@@ -18,7 +18,7 @@ pipeline{
 
                             script{
 
-                                Cleanws()
+                                cleanWs{}
                             }
 
 

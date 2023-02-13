@@ -11,7 +11,7 @@
 
 
 "jenkins-runner.hostConfigs": {
-    "gitops-argocd-CI": {
+    "jenkins-master":{
         "url": "http://35.154.235.130:8080",
         "user": "admin",
         "password": "shri",
