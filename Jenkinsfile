@@ -45,7 +45,7 @@ pipeline{
 
 
 
-                stage{
+                stage('Build Docker iamge'){
 
 
 
