@@ -4,19 +4,19 @@ pipeline{
         agent  any
 
 
-        environment{
+        // environment{
 
-                    DOCKERHUB_USERNAME = "shriniwas34"
-                    APP_NAME = "gitops-argo-app"
-                    IMAGE_TAG = "${BUILD_NUMBER}"
-                    IMAGE_NAME = "${DOCKERHUB_USERNAME}"  + "/" + "${APP_NAME}"
-                    REGISTRY_CREDS = 'dockerhub'
-
-
+        //             DOCKERHUB_USERNAME = "shriniwas34"
+        //             APP_NAME = "gitops-argo-app"
+        //             IMAGE_TAG = "${BUILD_NUMBER}"
+        //             IMAGE_NAME = "${DOCKERHUB_USERNAME}"  + "/" + "${APP_NAME}"
+        //             REGISTRY_CREDS = 'dockerhub'
 
 
 
-        }
+
+
+        // }
 
 
 
@@ -40,6 +40,27 @@ pipeline{
                     }
 
 
+
+                }
+
+
+
+                stages{
+
+
+
+                        steps{
+
+
+
+                            script{
+
+                                    docker_image = docker.build "${IMAGE_NAME}"
+
+
+
+                            }
+                        }
 
                 }
 
