@@ -44,21 +44,7 @@ pipeline{
                 }
 
 
-                stage('Git Checkout SCM'){
-
-                    steps{
-
-                            script{
-
-                                git credentialsId: 'github',
-                                url: 'https://github.com/shriniwas-devops/gitops_argocd-project.git',
-                                branch: 'main'
-                            }
-
-                    }
-
-                }
-
+             
 
 
                 }
