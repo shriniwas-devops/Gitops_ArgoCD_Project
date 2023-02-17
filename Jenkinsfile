@@ -4,19 +4,19 @@ pipeline{
         agent  any
 
 
-        // environment{
+        environment{
 
-        //         DOCKERHUB_USERNAME = "shriniwas34"
-        //           APP_NAME = "gitops-argo-app"
-        //            IMAGE_TAG = "${BUILD_NUMBER}"
-        //             IMAGE_NAME = "${DOCKERHUB_USERNAME}"  + "/" + "${APP_NAME}"
-        //     REGISTRY_CREDS = 'dockerhub'
-
-
+                DOCKERHUB_USERNAME = "shriniwas34"
+                  APP_NAME = "gitops-argo-app"
+                  IMAGE_TAG = "${BUILD_NUMBER}"
+                  IMAGE_NAME = "${DOCKERHUB_USERNAME}"  + "/" + "${APP_NAME}"
+            REGISTRY_CREDS = 'dockerhub'
 
 
 
-        //  }
+
+
+      }
 
 
 
@@ -106,8 +106,8 @@ pipeline{
 
 
                                docker.withRegistry('',REGISTRY_CREDS){
-                      docker_image.push("$BUILD_NUMBER")
-                                   docker_image.push("latest")
+                                docker_image.push("$BUILD_NUMBER")
+                                 docker_image.push("latest")
 
 
 
