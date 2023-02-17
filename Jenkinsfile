@@ -77,56 +77,56 @@ pipeline{
 
 
 
-                // stage('Build Docker iamge'){
+                 stage('Build Docker iamge'){
 
 
 
-                //         steps{
+                   steps{
 
 
 
-                //             script{
+                          script{
 
-                //                     docker_image = docker.build "${IMAGE_NAME}"
-
-
-
-                //             }
-                //         }
-
-                // }
-
-
-                // stage('Push Docker Image'){
-
-                //         steps{
-
-
-                //             script{
-
-
-                //                 docker.withRegistry('',REGISTRY_CREDS){
-                //                     docker_image.push("$BUILD_NUMBER")
-                //                     docker_image.push("latest")
+                                   docker_image = docker.build "${IMAGE_NAME}"
 
 
 
+                           }
+                        }
 
-                //                 }
+                }
+
+
+                 stage('Push Docker Image'){
+
+                       steps{
+
+                
+                   script{
+
+
+                               docker.withRegistry('',REGISTRY_CREDS){
+                      docker_image.push("$BUILD_NUMBER")
+                                   docker_image.push("latest")
 
 
 
-                //             }
-                //         }
 
-                // }
+                            }
+            }
+
+
+                          }
+                       }
+
+                }
 
 
              
 
 
                 }
-            }
+            
 
         
 
