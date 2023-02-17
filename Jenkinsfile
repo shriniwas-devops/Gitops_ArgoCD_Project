@@ -45,6 +45,38 @@ pipeline{
 
 
 
+                stage('checkout scm'){
+
+
+
+
+
+
+                        steps{
+
+                            script{
+
+                                withCredentials([gitUsernamePassword(credentialsId: 'github', gitToolName: 'Default')]) {
+    
+}
+
+
+
+
+                            }
+                        }
+
+
+
+
+
+
+
+
+                }
+
+
+
                 // stage('Build Docker iamge'){
 
 
@@ -97,3 +129,5 @@ pipeline{
             }
 
         
+
+//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
