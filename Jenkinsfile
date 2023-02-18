@@ -174,7 +174,8 @@ pipeline{
                                             git config --global user.name  "shri"
                                             git config --global user.email  "shri@shri.com" 
                                             git add deployment.yml
-                                            git commit -m "updated the deployment.yml file"  """
+                                            git commit -m "updated the deployment.yml file" 
+                                             """
                                                 withCredentials([gitUsernamePassword(credentialsId: 'github', gitToolName: 'Default')]) {
     
 
