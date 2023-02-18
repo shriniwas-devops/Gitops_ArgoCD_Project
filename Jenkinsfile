@@ -179,7 +179,7 @@ pipeline{
                                             """
                                             withCredentials([gitUsernamePassword(credentialsId: 'github', gitToolName: 'Default')]) {
     
-                                                    git push "https://github.com/shriniwas-devops/argocd.git" main 
+                                                     sh "git push https://github.com/shriniwas-devops/argocd.git main" 
 
 
 
