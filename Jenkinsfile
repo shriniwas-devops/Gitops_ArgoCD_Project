@@ -56,9 +56,9 @@ pipeline{
 
                             script{
 
-                                withCredentials([gitUsernamePassword(credentialsId: 'github', gitToolName: 'Default')]) {
-    
-}
+                                git branch: 'main', credentialsId: 'github',
+                                 url: 'https://github.com/shriniwas-devops/argocd.git'
+
 
 
 
