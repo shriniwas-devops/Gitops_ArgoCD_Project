@@ -143,7 +143,7 @@ pipeline{
                             steps{
                                     
 
-                                    script{
+                                    
 
                                            sh """
                                                 cat deployment.yml
@@ -153,7 +153,7 @@ pipeline{
 
                                            """ 
 
-                                    }
+                                    
 
 
                             }
