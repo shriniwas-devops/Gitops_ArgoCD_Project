@@ -177,7 +177,10 @@ pipeline{
                                             git commit -m "updated the deployment.yml file"
 
                                             """
-                                            withCredentials([gitUsernamePassword(credentialsId: 'github', gitToolName: 'Default')]) {
+                                                withCredentials([gitUsernamePassword(credentialsId: 'github', gitToolName: 'Default')]) {
+    
+
+
     
                                                      sh "git push https://github.com/shriniwas-devops/argocd.git main" 
 
