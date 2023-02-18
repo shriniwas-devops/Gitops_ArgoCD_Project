@@ -149,7 +149,7 @@ pipeline{
                                                 cat deployment.yml
                                                 sed -i 's/{APP_NAME}.*/{IMAGE_NAME}:{IMAGE_TAG}/g' deployment.yml
                                                 cat deployment.yml
-                                                
+
 
                                            """ 
 
@@ -160,6 +160,34 @@ pipeline{
 
 
 
+                    }
+
+
+                    stage('push the changed deployment file to git'){
+
+                            steps{
+
+                                script{
+
+                                        sh """
+
+                                            git config --global user.name= "shriniwas"
+                                            git config --global user.email= "shri@shri.com"
+                                            git add deployment.yml
+                                            git commit -m "updated the deployment.yml file"
+
+                                            """
+                                            withCredentials([gitUsernamePassword(credentialsId: 'github', gitToolName: 'Default')]) {
+    
+                                                    git push "https://github.com/shriniwas-devops/argocd.git" main 
+
+
+
+}
+
+
+                                }
+                            }
                     }
 
 
