@@ -150,6 +150,13 @@ Stage 07: push the changed deployment file to git
 2. this is user it will pushed the file back the it will try the pushed the file where we have the updated the version again same  github repository.
 
 
+OUTPUT:
+
+Jenkins output:
+
+
+
+![FHFG](https://user-images.githubusercontent.com/122585172/230891959-cf71e666-4de8-4b8e-a41a-ce331112338d.png)
 
 
 
