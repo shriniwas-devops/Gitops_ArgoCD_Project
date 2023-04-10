@@ -158,19 +158,8 @@ Jenkins output:
 
 Dockerhub:
 
-
 ![ghjgh](https://user-images.githubusercontent.com/122585172/230892199-feb0acde-2901-4840-8397-4461451efcff.png)
 
+ArGoCD output:
 
-
-
-
-
-
-
-
-
-
-
-
-
+![fghfghfg](https://user-images.githubusercontent.com/122585172/230892799-370a3493-eb0d-44ec-9bbc-ce8e9bbfb55f.png)
