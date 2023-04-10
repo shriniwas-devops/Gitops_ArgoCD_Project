@@ -156,6 +156,7 @@ Jenkins output:
 
 ![FHFG](https://user-images.githubusercontent.com/122585172/230891959-cf71e666-4de8-4b8e-a41a-ce331112338d.png)
 
+
 Dockerhub:
 
 ![ghjgh](https://user-images.githubusercontent.com/122585172/230892199-feb0acde-2901-4840-8397-4461451efcff.png)
@@ -163,3 +164,6 @@ Dockerhub:
 ArGoCD output:
 
 ![fghfghfg](https://user-images.githubusercontent.com/122585172/230892799-370a3493-eb0d-44ec-9bbc-ce8e9bbfb55f.png)
+
+
+![jhhgjhgj](https://user-images.githubusercontent.com/122585172/230893335-1a9f9b2d-9aff-448f-b243-a61f64cd857e.png)
