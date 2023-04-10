@@ -63,6 +63,42 @@ For Minikube install you van follow: https://minikube.sigs.k8s.io/docs/start/
  
 ![dfgfd](https://user-images.githubusercontent.com/122585172/230836035-f6a27faf-70ea-438d-ac6d-51777f1ba477.png)
 
+ Now Create a declarative jenkins pipeline for each stage.
+ 
+ 
+ Stage 01: Cleanup workspace
+ 
+ 1. whatever change you done with it will copy of version file to github your jenkins so that we don't need you clean up previous thing .
+ 2. we have to call the function that is cleanWs().
+
+![dsfdsfds](https://user-images.githubusercontent.com/122585172/230838551-ebfd8ad9-9053-4c55-bf8e-d7d0f28247d1.png)
+
+So let's do one thing let's add our environment variables first so environment variables why we will using we will be using to hide our Github secretes and our dockerhub serectes hwo we can declare env.
+
+![sadsads](https://user-images.githubusercontent.com/122585172/230840996-a1479a71-3ab8-4b47-9fca-4aa60f112463.png)
+
+Stage 02: checkout scm
+
+1. Go to pipeline syntax/select withcredentials/select username or password/and then click on genrate pipeline syntax.
+
+![fdssdd](https://user-images.githubusercontent.com/122585172/230842515-5f100bcc-0560-45b8-86dd-b0554cba686c.png)
+
+Make sure you install docker pipeline and dashboard  view plugin.
+
+Stage 03: Build Docker iamge
+
+1. here what we will do we will calling docker variable and we have to build our dockerfile so that's why docker build and here you have the provide the imagename .
+2. once you  will compile the docker file what is the image youn want to create .
+
+![fdgfdg](https://user-images.githubusercontent.com/122585172/230843716-b54460a9-84ba-4d33-8939-a835f2eaf181.png)
+
+Dockerfile :
+
+
+
+![sdfdsf](https://user-images.githubusercontent.com/122585172/230843967-0640c689-7bcd-4870-bfe6-7b6be1d24312.png)
+
+
 
 
 
