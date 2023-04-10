@@ -126,6 +126,26 @@ Service.yml file:
 
 
 
+Stage 06: updating kubernates deployments file
+
+1. First thing what will have to do we will printing what is the current deployment.yml file we have it will print the same version.
+2. Later what we have to do i will be using set commad here  so string with my application we wil replace v1 with jenkins build number.
+3 again we will check  deployment file either the version has been change or not.
+
+
+Stage 07: push the changed deployment file to git
+
+1. so it will do what it will update our current jenkins file and it will pushed to the git again .
+2. this is user it will pushed the file back the it will try the pushed the file where we have the updated the version again same  github repository.
+
+
+
+
+
+
+
+
+
 
 
 
