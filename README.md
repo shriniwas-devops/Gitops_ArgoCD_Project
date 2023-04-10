@@ -41,6 +41,19 @@ Create .vscode folder/create settings.json file/go to extension/ search jenkins 
 ![dfgdg](https://user-images.githubusercontent.com/122585172/230833257-b6071b4e-5a45-4d98-83cd-42fa340da06e.png)
 
 
+For Install jenkins you can follow here:https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
+
+After Install jenkins look like this:
+
+![fdgfdg](https://user-images.githubusercontent.com/122585172/230833849-6ce83862-41ad-4116-88e9-e7f7da26f466.png)
+
+For docker Install  &   create Dockerhub  account:
+
+For install docker:https://docs.docker.com/engine/install/ubuntu/
+
+And Dockerhub account you look like this:
+
+![dsfdsf](https://user-images.githubusercontent.com/122585172/230834301-a14cc0e7-7d45-459e-8d9f-73fca11df0f8.png)
 
 
 
