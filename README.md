@@ -125,8 +125,15 @@ Deployments.yml file:
 Service.yml file:
 
 
+![fgfdg](https://user-images.githubusercontent.com/122585172/230889841-b65846fe-47b2-4f42-af53-1182d40e530a.png)
+
+
 
 Stage 06: updating kubernates deployments file
+
+
+![FGHFFH](https://user-images.githubusercontent.com/122585172/230889941-b003db45-e748-43cf-bbad-f1bdab45d178.png)
+
 
 1. First thing what will have to do we will printing what is the current deployment.yml file we have it will print the same version.
 2. Later what we have to do i will be using set commad here  so string with my application we wil replace v1 with jenkins build number.
@@ -134,6 +141,10 @@ Stage 06: updating kubernates deployments file
 
 
 Stage 07: push the changed deployment file to git
+
+
+![HGJGHJG](https://user-images.githubusercontent.com/122585172/230890050-46d539f4-4a19-46c2-8d05-3e8be558a23b.png)
+
 
 1. so it will do what it will update our current jenkins file and it will pushed to the git again .
 2. this is user it will pushed the file back the it will try the pushed the file where we have the updated the version again same  github repository.
