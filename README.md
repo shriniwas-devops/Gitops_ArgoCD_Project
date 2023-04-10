@@ -55,6 +55,14 @@ And Dockerhub account you look like this:
 
 ![dsfdsf](https://user-images.githubusercontent.com/122585172/230834301-a14cc0e7-7d45-459e-8d9f-73fca11df0f8.png)
 
+For Minikube install you van follow: https://minikube.sigs.k8s.io/docs/start/
+
+ For ArgoCD you need to follow this: https://argo-cd.readthedocs.io/en/stable/getting_started/
+ 
+ After install argoCD look like this:
+ 
+![dfgfd](https://user-images.githubusercontent.com/122585172/230836035-f6a27faf-70ea-438d-ac6d-51777f1ba477.png)
+
 
 
 
