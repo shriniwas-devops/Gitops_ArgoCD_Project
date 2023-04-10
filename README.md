@@ -94,9 +94,39 @@ Stage 03: Build Docker iamge
 
 Dockerfile :
 
-
-
 ![sdfdsf](https://user-images.githubusercontent.com/122585172/230843967-0640c689-7bcd-4870-bfe6-7b6be1d24312.png)
+
+1. From base image i will using ppython:3.9-slim-buster then i will be runing .
+2. then i will be create conatiner work directory and then we will copy our app.py to the work directory of  conatiner.
+3.  and then by default port exposed 5000 and make the application keep executing backend 
+4.  whenever you create conatiner something should there inside that will keep on executing either it's  for java -jar or for python python
+
+
+Stage 04: Push Docker Image
+
+1. Here what we have to do in ordered push your images in dockerhub you have to first login to the authenticate with dockerhub. 
+2. we are pushing just one image with build number
+
+
+![gfdhgfdh](https://user-images.githubusercontent.com/122585172/230845930-041f0b3c-4c3f-437c-85b6-eb5dd904e737.png)
+
+
+Stage 05: Delete Docker Image
+
+1. so first image we have to clean what are the image name we have , we have the image name with application name and the tag(latest).
+
+![fdgfdfd](https://user-images.githubusercontent.com/122585172/230846606-f2344653-f915-4989-90d8-fb8bcd7839cc.png)
+
+
+Deployments.yml file:
+
+![gfdfd](https://user-images.githubusercontent.com/122585172/230846903-d4e84d44-4311-46e7-92fd-18799c47f4da.png)
+
+Service.yml file:
+
+
+
+
 
 
 
