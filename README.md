@@ -31,3 +31,17 @@ situation jenkins should automatically pull the letest code and apply . there wi
 So CD part will be taken care by ArgoCD .
 
 Push all the web application page code file into github:
+
+![fghgfhfg](https://user-images.githubusercontent.com/122585172/230832698-aa8f6803-498d-49e5-8cec-a8611f0cb749.png)
+
+Jenkins Runner configuration:
+
+Create .vscode folder/create settings.json file/go to extension/ search jenkins runner plugin/install the plugin
+
+![dfgdg](https://user-images.githubusercontent.com/122585172/230833257-b6071b4e-5a45-4d98-83cd-42fa340da06e.png)
+
+
+
+
+
+
